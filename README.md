@@ -1,3 +1,7 @@
+#### date : 2023-04-23
+#### version : 1.0.0
+#### author : jeongsik An
+
 # golang 연습하기
 
 ```shell
@@ -5,10 +9,21 @@
 go get -u github.com/gin-gonic/gin
 ```
 
+```shell
+# go unit Test 실행하기
+go test ./unitTestFirst_test.go
+```
+
+```shell
+# go 변수 확인하기
+go run ./variable.go
+```
+
 ## 참고자료
 
 1. [gin 확인하기](https://gin-gonic.com/ko-kr/docs/quickstart/)
 2. [golang 시작하기](https://wooiljeong.github.io/go/go-tutorial-01/)
+3. [go 테스트 작성하기](http://golang.site/go/article/115-Go-%EC%9C%A0%EB%8B%9B-%ED%85%8C%EC%8A%A4%ED%8A%B8)
 
 ## go lang에 대한 설명
 
@@ -50,3 +65,8 @@ go get -u github.com/gin-gonic/gin
 - 구조체를 사용하면 논리적으로 연관된 데이터를 하나의 객체로 그룹화할 수 있으며, 이를 통해 코드의 가독성과 유지보수성을 높일 수 있습니다.
 - 즉, 객체는 개념적인 개체를 표현하는 데 사용되는 개념으로, 구조체는 데이터를 구성하는 필드의 집합을 표현하는 데 사용되는 개념입니다. 
 - 객체는 구조체와 메서드를 묶어서 사용하는 개념으로, 구조체는 필드의 집합으로 사용자 정의 타입을 정의하는 개념입니다.
+
+## go test
+
+1. Go는 간편하게 사용할 수 있는 테스트 프레임워크를 내장하고 있는데, "go test" 명령을 실행하여 테스트 코드들을 실행할 수 있다. 
+2. "go test"는 현재 폴더에 있는 *_test.go 파일들을 테스트 코드로 인식하고, 이들을 일괄적으로 실행한다.
